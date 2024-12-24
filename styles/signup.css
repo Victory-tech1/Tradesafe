@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  text-align: center;
+}
+#ctn {
+  width: 350px;
+  margin: 20px auto;
+  background-image: linear-gradient(
+    to bottom left,
+    rgb(177, 255, 177),
+    rgb(0, 88, 0)
+  );
+  box-sizing: border-box;
+}
+input {
+  padding: 0 10px;
+  width: 300px;
+  height: 50px;
+  margin: 25px 20px 0 20px;
+  border: none;
+  box-sizing: border-box;
+}
+input[type="button"] {
+  color: #ffffff;
+  background-color: rgb(0, 255, 0);
+}
+p {
+  color: #ffffff;
+  margin: 22px 0;
+}
+p a {
+  color: rgb(0, 255, 0);
+}
+input[type="radio"] {
+  height: 12px;
+  width: 12px;
+  margin: 5px;
+  display: inline;
+}
+label[for="gender"] {
+  margin-top: 20px;
+}
+label[for="country"] {
+  margin-top: 20px;
+}
+label {
+  display: inline-block;
+  margin: 5px 0 0 0;
+}
+#signin {
+  height: 35px;
+}
